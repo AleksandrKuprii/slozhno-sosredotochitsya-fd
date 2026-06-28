@@ -2,3 +2,26 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --mine-shaft: #353430;
+  --hot-pink: #ff0070;
+  --darknest-blue: #000028;
+  --electric-magenta: #db00ff;
+  --soft-pink: #f1b2ce;
+  --pale-pink: #fff1f7;
+  --light-pink: #ff8dcb;
+  --pastel-pink: #ffc2e6;
+  --opacity-hot-pink: rgb(255, 0, 111, 0.4);
+  --opacity-mine-shaft: rgb(50, 49, 45, 0.4);
+
+  --bg-image: url('../images/cover-image-dark.png');
+  --bg-color: var(--darknest-blue);
+  --accent-color: var(--hot-pink);
+  --header-paragraph-color: var(--darknest-blue);
+  --general-title-color: var(--electric-magenta);
+  --section-paragraph-color: var(--soft-pink);
+  --menu-color: var(--accent-color);
+  --menu-border-color: var(--opacity-hot-pink);
+  --section-title-color: var(--accent-color);
+  --decor-color: var(--accent-color);
+}

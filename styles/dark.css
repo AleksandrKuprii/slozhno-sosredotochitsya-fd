@@ -9,4 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-image: url('../images/cover-image-dark.png');
+  --bg-color: var(--darknest-blue);
+  --accent-color: var(--hot-pink);
+  --header-paragraph-color: var(--darknest-blue);
+  --general-title-color: var(--electric-magenta);
+  --section-paragraph-color: var(--soft-pink);
+  --menu-color: var(--accent-color);
+  --menu-border-color: var(--opacity-hot-pink);
+  --section-title-color: var(--accent-color);
+  --decor-color: var(--accent-color);
+}
+
+:root.theme-dark .header__decorative-element {
+  display: inline-block;
 }
